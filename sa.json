@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "fintech-team",
+  "private_key_id": "2eddb5e1463cb8231b0c442e9fdc15d99608f803",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCaP8Mc27iU1dCe\n7UPS3ERllG7ts72TtCtxd0fA4xvw7SD0wx+c1FE/nogNuUwxMIa9Eij/7LHT0vyg\n2fJiwRQWIkkFN+0Iz8OFGDAosv2/u0O7ocOmvQx5xmz5JpmaTuGL2kv27IAgJK3B\nwmK+uiF/mXKIi6R9dGgTZamRRBFF0YJHfrGzuPrEYbNKSI91T1+5tR7b/+fTUbeg\n97hirnF+ACQ4oBWlOugsfJh/RP3c5sfaPL/7wvJwtJaQE+U6B5CLjG/82yG9yRCR\ntxpv5uIlEBwlrj2LlBK1LSZZu6zX0tFnRh0OSP7GIUSbU9m/mIsVlLPvuVy79dn1\nobtDiwj5AgMBAAECggEALLMtp79EzlzoCCZZ8VFDwOwy+U+NMLCVplwavxsRjdAq\nLMQe9SPSJ82ZP+Di455cbY5Fs2S0Y95Qt4xxYYzydTeaUZjTaCpNTtSjoCe+wUFT\nb5yBRmCirOeDzPASs1UIp66rNPN0bdwzPmNGml72NjQRrOBK2tBRGM3tRduj5cdN\n6kJKYlljYwOQGl6nFwHvF59JhQB389psDiJo2ouYLaTWKQR1+RE29uyemjE3kwY0\nLVPFrtyMftaJxFrhD0NGsVfF46XSwzNztcuGohmB6XedOk+PwefO8j3UgDvkENtT\nw+9sdafCbk11D+oVzm00f/NPEMLyIK9OWiCLFDvlwQKBgQDOAfk4Dv3xFnwX1r5I\n2zikPCr5Nu+W4+1+zcZyXkMpb1B7Cv02ni993dA7DrkVtRI4coBTve3Xv7V58qxI\nOtt+g+Eb57kfpzA3TnvUENV/ghVZ28VDJoiv/1UtfSNQxrmRoKBh+8fZCy6mePpy\nTG/nxs3+hOFxgQuk+bJIuuONBwKBgQC/rlWIrYWwp/rqoUdmA23/FPYupSUPvp49\nBeVDeGOyQg5J4ZPJtaPksrIdFAbQlyVW2iZGrfNcUTLBq8q/lThIiDqmvuw4UL5/\na1s9/gO+eMunFp+699BH1PGLwkc1uK6lXcn1PBJmWXdsx/6+5aOHvYZzzIPEyr9N\nOkde1+05/wKBgQCPcrpaeb4EWbbRVrwruVMIscjuvn05Ib+nk5xC2TaFLLjq5O0L\nUj0ZtRIhfZAN+IcWfUy0g0WR/TFeGEg1B579ytE+gC3dR6sAaAs70PkJj8hUSP9k\nUfnOK8rhIQktXyOqryHe+NbhYLL8QrOKUYV+7GVWfKsLQWOdXi3yDQkUkwKBgBWi\ncqsDktRWkV6MJ4ffGToyPnsTTrSROkD++lp8KxyCkiRKnqikpMP6W1om2YIPnTpJ\nUwqlNZOU4pqzbiXjjL+7CIurfvP4QRgWoOzFT9zeu3W3ev3aXJrO8RhqLClnF+c4\nR8QzLIx6ypzvkdQwDR4UCSnmynSawa7Qxh9xVag3AoGAG7jGDB+4cmmbKpvC91cX\n4PI2OlpRDvP06sD9LGJubgeJjcqZVGV/xkxhgQvifWMCeGSiOWKqFjBiHaEntUev\ng7/6jKoAZaMt2kHywG9iy22cnzyryjvV49KTCTYbIG38McpMr0wFuN1ebHNhP4K8\nhy0aGgDTuTuBPvq/h7iM0YQ=\n-----END PRIVATE KEY-----\n",
+  "client_email": "terraform-automation@fintech-team.iam.gserviceaccount.com",
+  "client_id": "114613904339888391414",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/terraform-automation%40fintech-team.iam.gserviceaccount.com"
+}
