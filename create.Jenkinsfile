@@ -17,14 +17,12 @@ pipeline {
         stage('Terraform Cluster') {
 
             steps {
-                {
 				    sh "pwd"
 					sh "ls -lrta"
                     sh "terraform init -no-color"
                     sh "terraform workspace select -no-color ${TERRAFORM_WORKSPACE} || terraform workspace new -no-color ${TERRAFORM_WORKSPACE}"
                     sh "terraform refresh -no-color"
 					sh "terraform apply -var-file=terraform.tfvars"
-                }
             }
         }
 
