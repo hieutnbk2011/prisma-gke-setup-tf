@@ -18,7 +18,7 @@ pipeline {
 
             steps {
 				    sh "pwd"
-					sh "ls -lrta"
+					sh "whoami"
                     sh "terraform init -no-color"
                     sh "terraform workspace select -no-color ${TERRAFORM_WORKSPACE} || terraform workspace new -no-color ${TERRAFORM_WORKSPACE}"
                     sh "terraform refresh -no-color"
