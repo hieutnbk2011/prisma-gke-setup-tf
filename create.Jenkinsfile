@@ -14,6 +14,11 @@ pipeline {
             }
         }
 
+    environment {
+        HOME                    = "${WORKSPACE}"
+        TERRAFORM_WORKSPACE     = envfiles('TERRAFORM_WORKSPACE')
+    }
+
         stage('Terraform Cluster') {
 
             steps {
