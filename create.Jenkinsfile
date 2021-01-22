@@ -49,16 +49,16 @@ pipeline {
                 dir('cluster') {
 				    sh "pwd"
 					sh "ls -lrta"
-//                    sh "terraform init -no-color"
+/*                    sh "terraform init -no-color"
 //                    sh "terraform workspace select -no-color ${TERRAFORM_WORKSPACE} || terraform workspace new -no-color ${TERRAFORM_WORKSPACE}"
 //                    sh "terraform refresh -no-color"
 //                    sh "terraform plan -no-color -out terraform.plan"
-//                    sh "terraform apply -no-color terraform.plan"
+*/                    sh "terraform apply -no-color terraform.plan"
                 }
             }
         }
 
-        stage('Cluster Check') {
+\*        stage('Cluster Check') {
             steps {
                 dir('cluster') {
 \\                    sh "mkdir -p ${HOME}/bin"
@@ -88,7 +88,7 @@ pipeline {
                 }
             }
         }
-
+*/
         stage('Archive Artifacts') {
             steps {
                 archiveArtifacts artifacts: 'cluster/kubeconfig_*.yaml'
