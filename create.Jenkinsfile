@@ -7,16 +7,6 @@ def envfiles(String env_name) {
 pipeline {
     agent any
 
-    environment {
-        HOME                    = "${WORKSPACE}"
-
-        TERRAFORM_WORKSPACE     = envfiles('TERRAFORM_WORKSPACE')
-        TERRAFORM_DEPLOY_HELM   = envfiles('TERRAFORM_DEPLOY_HELM')
-
-
-        KUBECTL_VERSION         = envfiles('KUBECTL_VERSION')
-    }
-
     stages {
         stage('Clean Workspace') {
             steps {
