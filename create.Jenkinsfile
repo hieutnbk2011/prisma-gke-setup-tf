@@ -6,6 +6,11 @@ def envfiles(String env_name) {
 
 pipeline {
     agent any
+	
+	environment {
+        HOME                    = "${WORKSPACE}"
+        TERRAFORM_WORKSPACE     = envfiles('TERRAFORM_WORKSPACE')
+    }
 
     stages {
         stage('Clean Workspace') {
@@ -13,11 +18,6 @@ pipeline {
                 sh "git clean -xdff"
             }
         }
-
-    environment {
-        HOME                    = "${WORKSPACE}"
-        TERRAFORM_WORKSPACE     = envfiles('TERRAFORM_WORKSPACE')
-    }
 
         stage('Terraform Cluster') {
 
