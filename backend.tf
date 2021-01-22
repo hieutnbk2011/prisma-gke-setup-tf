@@ -3,6 +3,6 @@ terraform {
   backend "gcs" {
     bucket  = "tfst-bucket"
     prefix    = "tfst-bucket/tfst-bucket"
-    credentials = "/root/.jenkins/terraform" 
+    credentials = "/root/.jenkins/terraform/sa.json" 
  }
 }
