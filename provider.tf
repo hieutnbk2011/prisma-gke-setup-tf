@@ -1,6 +1,6 @@
 # Google provider
 provider "google" {
-  credentials        = file("/root/.config/gcloud/application_default_credentials.json")
+  credentials        = file("/root/.jenkins/terraform/sa.json")
   project            = var.project
   region             = var.region
 }
