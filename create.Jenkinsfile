@@ -5,6 +5,8 @@ def envfiles(String env_name) {
 
 
 pipeline {
+    agent any
+
     environment {
         HOME                    = "${WORKSPACE}"
 
