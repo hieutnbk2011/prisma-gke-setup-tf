@@ -84,7 +84,7 @@ pipeline {
                     sh "terraform init -no-color"
                     sh "terraform refresh -no-color"
                     sh "terraform plan -no-color -out terraform.plan"
-\\                    sh "terraform apply -no-color terraform.plan"
+\\                    sh "terraform apply -no-color terraform.plan "
                 }
             }
         }
