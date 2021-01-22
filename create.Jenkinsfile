@@ -17,7 +17,7 @@ pipeline {
         stage('Terraform Cluster') {
 
             steps {
-                dir('cluster') {
+                {
 				    sh "pwd"
 					sh "ls -lrta"
                     sh "terraform init -no-color"
