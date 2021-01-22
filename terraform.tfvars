@@ -2,7 +2,7 @@
 
 # Global values
 name = "spinnaker-cd"
-project = "telcom-team"
+project = "telco-team"
 location = "us-central1-a"
 region = "us-central1"
 # ---------------------
